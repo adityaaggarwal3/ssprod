@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.2.10",
+    "hamburger-react": "^2.5.1",
+    "next": "14.2.3",
     "react": "^18",
+    "react-countup": "^6.5.3",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-simple-typewriter": "^5.0.1",
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
     "eslint": "^8",

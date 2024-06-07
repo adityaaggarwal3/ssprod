@@ -1,0 +1,10 @@
+.hero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.hero .navbar{
+    background-color: rgba(250, 250, 250, 0.671);
+}

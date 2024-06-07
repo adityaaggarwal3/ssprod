@@ -1,0 +1,37 @@
+.about{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.abtContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    padding: 10px;
+    
+}
+
+.abtContainer div{
+    /* border: 5px solid red; */
+    height: 100%;
+}
+
+.abtContainer>div:nth-child(1){
+    background: url(https://images.pexels.com/photos/2209529/pexels-photo-2209529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.abtContainer>div:last-child{
+    background-color: chartreuse;
+    flex: 3;
+}

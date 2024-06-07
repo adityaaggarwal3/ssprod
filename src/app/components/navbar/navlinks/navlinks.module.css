@@ -1,0 +1,15 @@
+.link{
+    min-width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--bg);
+}
+
+
+.active{
+    background-color: var(--bg);
+    color: var(--text);
+    font-weight: 500;
+}
