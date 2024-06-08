@@ -1,15 +1,22 @@
 .link{
     min-width: 100px;
     border-radius: 20px;
-    padding: 10px;
+    font-weight: 500;
+    padding: 12px;
     text-align: center;
     text-decoration: none;
     color: var(--bg);
 }
 
+.link:hover{
+    background-color: azure;
+        box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
 
 .active{
+    pointer-events: none;
     background-color: #ef831b;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
     color: var(--text);
-    font-weight: 500;
+    font-weight: 700;
 }
