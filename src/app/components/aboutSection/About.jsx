@@ -39,7 +39,14 @@ const About = () => {
             Quasi autem saepe voluptate facere maxime vitae asperiores, animi
             similique ipsam impedit voluptas ipsum iste nihil esse beatae
             inventore atque quidem delectus dolor ea ratione quos odio.
-            Suscipit, accusantium perferendis.
+            Suscipit, accusantium perferendis. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Doloribus obcaecati cupiditate
+            sapiente delectus distinctio sit voluptatibus molestiae facere
+            soluta impedit perferendis dolores quod tempora error, rem ipsum
+            quae facilis magni! Earum vitae beatae rem ad, nobis adipisci quas,
+            iure voluptates commodi est nemo itaque mollitia asperiores amet
+            ipsam molestias repellat quos, doloribus id expedita! Molestias
+            laboriosam fugit aliquid placeat nihil?
           </p>
           <div className={styles.cta}>
             <button>Learn More...</button>

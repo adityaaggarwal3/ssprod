@@ -6,16 +6,15 @@
     flex-direction: column;
     padding: 20px;
     overflow: hidden;
-    /* border: 1px solid black; */
 }
 
 .abtContainer{
     display: flex;
     width: 75%;
     height: 100%;
-    gap: 20px;
-    padding: 10px;
-    
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 2px solid #ef831b;
 }
 
 .abtContainer>div:nth-child(1){
@@ -32,18 +31,22 @@
     flex: 3;
     display: flex;
     align-items: center;
-    gap: 50px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
     padding: 50px;
+    margin: 0 10px;
+    border: 3px solid #ef831b;
 }
 
 .textContainer h1{
     font-size: 60px;
+    text-decoration: underline;
+    color: #fa7c07;
 }
 
 .textContainer p{
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .cta{

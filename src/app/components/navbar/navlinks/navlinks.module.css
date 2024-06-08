@@ -9,7 +9,7 @@
 
 
 .active{
-    background-color: var(--bg);
+    background-color: #ef831b;
     color: var(--text);
     font-weight: 500;
 }

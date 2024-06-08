@@ -37,7 +37,7 @@ const Counter = () => {
           <CountUp
             start={0}
             end={50}
-            duration={5}
+            duration={4}
             enableScrollSpy={true}
             scrollSpyOnce={true}
           ></CountUp>{" "}

@@ -20,20 +20,30 @@ const Header = () => {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide className={styles.slide}>
-          <img src="https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+        <SwiperSlide>
+          <div className={styles.imgContainer}>
+            <img src="https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          <div className={styles.imgContainer}>
+            <img src="https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          <div className={styles.imgContainer}>
+            <img src="https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://images.pexels.com/photos/224924/pexels-photo-224924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          <div className={styles.imgContainer}>
+            <img src="https://images.pexels.com/photos/224924/pexels-photo-224924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://images.pexels.com/photos/33192/paddle-wheel-bucket-wheel-excavators-brown-coal-open-pit-mining.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          <div className={styles.imgContainer}>
+            <img src="https://images.pexels.com/photos/33192/paddle-wheel-bucket-wheel-excavators-brown-coal-open-pit-mining.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>

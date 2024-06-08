@@ -24,27 +24,30 @@ const TypingText = () => {
           transition={{ delay: 0.5, duration: 0.5 }}
         >
           S<span style={{ fontSize: "60px", color: "#ef831b" }}>&</span>S
-          Engineering Solutions <br />
-          <span
-            style={{ color: "white", fontWeight: "bold", fontSize: "35px" }}
-          >
-            {/* Style will be inherited from the parent element */}
-            <Typewriter
-              words={[
-                "Boiler Plants...",
-                "Steam Plants...",
-                "Construction...",
-                "Empowering Engineering and Technology...",
-              ]}
-              loop={10}
-              cursor
-              cursorStyle="_"
-              typeSpeed={80}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </span>
+          Engineering Solutions
         </motion.h1>
+        <motion.p
+          style={{ color: "white", fontWeight: "bold", fontSize: "35px" }}
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.7, duration: 0.5 }}
+        >
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={[
+              "Boiler Plants...",
+              "Steam Plants...",
+              "Construction...",
+              "Empowering Engineering and Technology...",
+            ]}
+            loop={10}
+            cursor
+            cursorStyle="_"
+            typeSpeed={80}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
+        </motion.p>
       </div>
     </div>
   );
