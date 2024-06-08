@@ -1,15 +1,24 @@
 .counter{
     display: flex;
     width: 90%;
-    height: 70%;
+    height: 90%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-weight: 900;
-    font-size: 55px;
+    justify-content: space-between;
+    /* gap: 50px; */
+    
+    /* font-size: 55px; */
     padding: 50px 10px;
-    background-color: rgba(245, 222, 179, 0.164);
-    /* border: 2px solid white; */
+    background-color: rgba(46, 46, 45, 0.349);
     color: white;
-    /* flex */
+}
+
+.counter div>h2{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.counter div>p{
+    font-size: 30px;
+    font-weight: 600;
 }

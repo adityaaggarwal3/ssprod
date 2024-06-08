@@ -17,7 +17,12 @@ const TypingText = () => {
         >
           <Image src="/logonobg.png" width={200} height={200} />
         </motion.div>
-        <h1 style={{ fontWeight: "900", fontSize: "80px", color: "#ea1d25" }}>
+        <motion.h1
+          style={{ fontWeight: "900", fontSize: "80px", color: "#ea1d25" }}
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+        >
           S<span style={{ fontSize: "60px", color: "#ef831b" }}>&</span>S
           Engineering Solutions <br />
           <span
@@ -34,12 +39,12 @@ const TypingText = () => {
               loop={10}
               cursor
               cursorStyle="_"
-              typeSpeed={70}
+              typeSpeed={80}
               deleteSpeed={50}
               delaySpeed={1000}
             />
           </span>
-        </h1>
+        </motion.h1>
       </div>
     </div>
   );

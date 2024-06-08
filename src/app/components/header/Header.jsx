@@ -11,7 +11,6 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <Swiper
-        // spaceBetween={30}
         centeredSlides={true}
         autoplay={{
           delay: 2500,
@@ -22,7 +21,7 @@ const Header = () => {
         className="mySwiper"
       >
         <SwiperSlide className={styles.slide}>
-          <img src="https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          <img src="https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
