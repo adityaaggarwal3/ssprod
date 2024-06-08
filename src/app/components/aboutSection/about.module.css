@@ -11,7 +11,7 @@
 
 .abtContainer{
     display: flex;
-    width: 100%;
+    width: 75%;
     height: 100%;
     gap: 20px;
     padding: 10px;
@@ -39,11 +39,11 @@
 }
 
 .textContainer h1{
-    font-size: 55px;
+    font-size: 60px;
 }
 
 .textContainer p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .cta{
