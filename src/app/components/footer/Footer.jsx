@@ -70,7 +70,8 @@ const Footer = () => {
           fontSize: "18px",
         }}
       >
-        Developed by <Link href="https://aggarwaladi.com">Aditya Aggarwal</Link>
+        Developed by
+        <Link href="https://aggarwaladi.com"> Aditya Aggarwal</Link>
       </div>
     </div>
   );

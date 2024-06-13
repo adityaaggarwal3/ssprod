@@ -41,6 +41,7 @@
 }
 
 
+@media (max-width: 780px),
 @media (max-width: 640px){
     .footerItems{
         flex-wrap: wrap;

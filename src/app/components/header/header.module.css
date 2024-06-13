@@ -21,8 +21,9 @@
     }
     
 }
-
-@media (max-width: 640px){
+@media (max-width: 780px),
+@media (max-width: 640px)
+{
     .header{
         width: 100vw;
         /* height: 100vh; */

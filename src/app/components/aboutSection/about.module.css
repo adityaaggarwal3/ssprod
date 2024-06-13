@@ -65,7 +65,7 @@
     border: none;
     cursor: pointer;
 }
-
+@media (max-width: 780px),
 @media (max-width: 640px){
     .abtContainer{
         flex-direction: column-reverse;
