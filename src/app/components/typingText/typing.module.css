@@ -8,6 +8,7 @@
     gap: 25px;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     /* background-color: rgba(0, 0, 0, 0.267); */
     position: absolute;
     top: 0;

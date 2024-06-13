@@ -4,7 +4,7 @@ import About from "./components/aboutSection/About";
 import Header from "./components/header/Header";
 import TypingText from "./components/typingText/TypingText";
 import styles from "./page.module.css";
-import ServicesSection from "./components/serviceSection/AboutSliderSection";
+import ServicesSection from "./components/serviceSection/ServiceSection";
 import TeamSection from "./components/teamSection/TeamSection";
 import ClientsSection from "./components/clients/ClientsSection";
 
@@ -14,6 +14,7 @@ export default function Home() {
       <Header/>
       <TypingText/>
       <About/>
+      <ServicesSection/>
       <TeamSection/>
       <ClientsSection/>
     </div>
