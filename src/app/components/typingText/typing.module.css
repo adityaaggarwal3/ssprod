@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .headerText{
     height: 100vh;
@@ -19,21 +18,43 @@
 
 .headerText h1{
     text-shadow: 2px 4px 5px rgba(248, 246, 246, 0.65);
-    font-family:  "Dancing Script", cursive;
-
+    font-family:  "Montserrat", cursive;
+    color: #ea1d25;
+    font-weight: 900;
+    font-size: 80px;
 }
+
+.headerText span{
+    color: #ef831b;
+    font-size: 60px;
+}
+
 
 .headerText p{
     text-shadow: 2px 4px 5px rgba(0,0,0,0.6);
+    font-size: 35px;
+    color: white !important;
+    font-weight: bold;
 }
+
 
 /* @media (max-width: 768px) {
     
   }
   
-  @media (max-width: 640px) {
-    
-  }
+  
   @media (max-width: 475px) {
     
   } */
+
+  @media (max-width: 640px) {
+   .headerText h1{
+    font-size: 50px;
+   }
+   .headerText span{
+    font-size: 45px;
+   }
+   .headerText span{
+    font-size: 25px;
+   }
+  }
