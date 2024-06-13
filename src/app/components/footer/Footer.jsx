@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./footer.module.css";
 import Image from "next/image";
 import FooterNav from "./footerNav/FooterNav";
+import Link from "next/link";
 
 const Footer = () => {
   const links = [
@@ -59,6 +60,17 @@ const Footer = () => {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
+      </div>
+      <div
+        style={{
+          color: "white",
+          display: "flex",
+          justifyContent: "center",
+          padding: "10px",
+          fontSize: "18px",
+        }}
+      >
+        Developed by <Link href="https://aggarwaladi.com">Aditya Aggarwal</Link>
       </div>
     </div>
   );
