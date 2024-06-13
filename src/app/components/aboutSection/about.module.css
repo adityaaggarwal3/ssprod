@@ -10,9 +10,8 @@
 
 .abtContainer{
     display: flex;
-    width: 75%;
+    width: 80%;
     height: 100%;
-    justify-content: space-evenly;
     padding: 20px;
     border: 2px solid #ef831b;
 }
