@@ -8,6 +8,8 @@
     color: var(--bg);
 }
 
+
+
 .link:hover{
     background-color: azure;
         box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
@@ -19,4 +21,9 @@
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
     color: var(--text);
     font-weight: 700;
+}
+
+.footer{
+    text-decoration: none;
+    color: white;
 }

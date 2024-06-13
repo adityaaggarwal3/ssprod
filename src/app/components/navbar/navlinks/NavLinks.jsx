@@ -11,11 +11,10 @@ const NavLinks = ({ item }) => {
     <div>
       <Link
         href={item.path}
-        className={`${styles.link} ${path === item.path && styles.active} `}
+        className={`${styles.link} ${path === item.path && styles.active}`}
       >
         {item.title}
       </Link>
-      <></>
     </div>
   );
 };
