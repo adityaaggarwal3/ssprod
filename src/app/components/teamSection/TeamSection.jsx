@@ -20,7 +20,14 @@ const TeamSection = () => {
 
   return (
     <div className={styles.teamSection}>
-      <h2>Our Team</h2>
+      <motion.h2
+        initial={{ y: 250, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.75, duration: 0.5 }}
+        viewport={{ once: true }}
+      >
+        Our Team
+      </motion.h2>
       <div className={styles.cardContainer}>
         <motion.div
           className={styles.singleCard}
