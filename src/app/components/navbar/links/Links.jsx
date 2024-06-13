@@ -50,10 +50,19 @@ const Links = () => {
         )}
       </div>
       <span className={styles.menuBtn}>
-        <Hamburger onToggle={(open) => setOpen((prev) => !prev)}></Hamburger>
+        <Hamburger
+          color="orange"
+          toggled={open}
+          onToggle={(open) => setOpen((prev) => !prev)}
+        ></Hamburger>
       </span>
       {open && (
-        <div className={styles.mobileLinks}>
+        <div
+          className={styles.mobileLinks}
+          onClick={(open) => {
+            setOpen((prev) => !prev);
+          }}
+        >
           {links.map((link, i) => (
             <NavLinks item={link} key={i} open={open} />
           ))}

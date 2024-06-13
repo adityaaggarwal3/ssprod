@@ -74,7 +74,9 @@
         padding: 15px;
     }
     .textContainer{
-        padding: 10px;      
+        padding: 10px;
+        /* overflow: hidden;  */
+        height: fit-content;     
     }
     .textContainer h1{
         font-size: 30px;
