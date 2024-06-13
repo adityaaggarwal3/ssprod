@@ -53,6 +53,7 @@
     align-items: center;
     justify-content: center;
     width: 75%;
+    gap: 15px;
 }
 .cta button{
     padding: 20px;
@@ -88,6 +89,7 @@
     .cta button{
         width: 100px;
         margin: 10px;
-        font-size: 15px;
+        padding: 10px;
+        font-size: 12px;
     }
 }
