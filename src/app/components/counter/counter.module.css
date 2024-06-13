@@ -20,3 +20,17 @@
     font-weight: 600;
     text-shadow: 0px 0px 20px 15px rgba(236, 233, 233, 0.75);
 }
+
+
+
+@media (max-width: 640px){
+    .counter{
+        flex-direction: row;        
+    }
+    .counter div>h2{
+        font-size: 40px;
+    }
+    .counter div>p{
+        font-size: 25px;
+    }
+}

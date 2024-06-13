@@ -1,13 +1,11 @@
 "use client";
 
-import React, { useref } from "react";
+import React from "react";
 import styles from "./about.module.css";
 import { motion } from "framer-motion";
 import Counter from "../counter/Counter";
 
 const About = () => {
-  // const aboutRef = useref();
-
   return (
     <div className={styles.about}>
       <motion.div

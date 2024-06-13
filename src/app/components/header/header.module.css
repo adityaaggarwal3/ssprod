@@ -15,6 +15,7 @@
 }
 
 @media (max-width: 768px) {
+    
     .header img{
         width: 100vw;
     }
@@ -24,7 +25,7 @@
 @media (max-width: 640px){
     .header{
         width: 100vw;
-        height: 100vh;
+        /* height: 100vh; */
     }
     .header img{
         width: 100%;

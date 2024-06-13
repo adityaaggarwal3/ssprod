@@ -50,8 +50,8 @@
 
 .cta{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
     width: 75%;
 }
 .cta button{
@@ -62,4 +62,32 @@
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
     width: 175px;
     border: none;
+}
+
+@media (max-width: 640px){
+    .abtContainer{
+        flex-direction: column-reverse;
+        gap: 20px;
+        width: 90%;
+    }
+    .textContainer{
+        padding: 10px;
+        position: relative;
+        top: 0;
+    }
+    .textContainer h1{
+        font-size: 30px;
+    }
+    .textContainer p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .cta{
+        width: 100%;
+    }
+    .cta button{
+        width: 100px;
+        margin: 10px;
+        font-size: 15px;
+    }
 }
