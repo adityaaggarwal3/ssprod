@@ -22,7 +22,11 @@ const TypingText = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          S<span>&</span>S Engineering Solutions
+          S
+          <span className={styles.span1} style={{ color: "#ef831b" }}>
+            &
+          </span>
+          S Engineering Solutions
         </motion.h1>
         <motion.p
           // style={{ color: "white", fontWeight: "bold", fontSize: "35px" }}
@@ -43,7 +47,6 @@ const TypingText = () => {
             typeSpeed={80}
             deleteSpeed={50}
             delaySpeed={1000}
-            style={{ color: "white" }}
           />
         </motion.p>
       </div>
