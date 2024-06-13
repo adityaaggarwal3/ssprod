@@ -34,7 +34,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.footerItems}>
         <div className={styles.footerLogo}>
-          <Image src="/logonobg.png" width={150} height={150} />
+          <Image src="/logopreview.png" width={175} height={175} />
         </div>
         <div className={styles.footerNav}>
           {links.map((link, i) => (
