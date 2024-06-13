@@ -25,7 +25,8 @@
 
 @media (max-width: 640px){
     .counter{
-        flex-direction: row;        
+        flex-direction: row;
+              
     }
     .counter div>h2{
         font-size: 40px;

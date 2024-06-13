@@ -63,6 +63,7 @@
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
     width: 175px;
     border: none;
+    cursor: pointer;
 }
 
 @media (max-width: 640px){
@@ -70,11 +71,10 @@
         flex-direction: column-reverse;
         gap: 20px;
         width: 90%;
+        padding: 15px;
     }
     .textContainer{
-        padding: 10px;
-        position: relative;
-        top: 0;
+        padding: 10px;      
     }
     .textContainer h1{
         font-size: 30px;

@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import TypingText from "./components/typingText/TypingText";
 import styles from "./page.module.css";
 import ServicesSection from "./components/serviceSection/AboutSliderSection";
+import TeamSection from "./components/teamSection/TeamSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header/>
       <TypingText/>
       <About/>
+      <TeamSection/>
     </div>
   );
 }
