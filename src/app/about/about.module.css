@@ -71,7 +71,18 @@
     .aboutText{
         padding: 30px;
     }
+    .aboutLgImg{
+        width: 600px;
+    }
+}
+
+@media (max-width: 480px){
+    .aboutLgImg{
+        width: 400px;
+    }
     .aboutImg{
-        margin: 20px;
+        width: 400px;
+        display: flex;
+        justify-content: center;
     }
 }

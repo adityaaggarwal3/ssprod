@@ -92,7 +92,12 @@ const AboutPage = () => {
           </ul>
         </div>
         <div className={styles.aboutImg}>
-          <Image src="/WA0022.jpg" width={700} height={500} />
+          <Image
+            className={styles.aboutLgImg}
+            src="/WA0022.jpg"
+            width={700}
+            height={500}
+          />
         </div>
       </motion.div>
     </motion.div>
