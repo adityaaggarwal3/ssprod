@@ -7,6 +7,22 @@ import Image from "next/image";
 import ServicesSection from "../components/serviceSection/ServiceSection";
 
 const AboutPage = () => {
+  const services = [
+    "Boiler Design & Retrofitting",
+    "Industrial Civil Design & Constructions",
+    "Steel Structural Design & Detail Engineering",
+    "Thermal Power-Plants",
+    "Critical Piping Design & Stress Analysis",
+    "Architectural Design",
+    "Home Interior",
+    "Home Improvement",
+    "Industrial Building & Office Construction",
+    "Mechanical Design & Engineering",
+    "Machine Design & Reverse Engineering",
+    "Boiler & Powerplant Spares Manufacturing",
+    "Boiler & Turbine Automation",
+  ];
+
   return (
     <motion.div
       className={styles.aboutPage}
@@ -43,21 +59,14 @@ const AboutPage = () => {
       >
         <div className={styles.aboutText}>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
-            corrupti delectus, neque autem pariatur reiciendis deleniti
-            laboriosam vel rem aperiam ipsa, rerum aliquid a. Optio, eligendi
-            ut. Tempora, eaque exercitationem! Hic labore officiis nulla
-            praesentium aliquid repellendus aut, eaque voluptatibus fugit,
-            maiores autem, expedita inventore ad et amet laboriosam
-            reprehenderit minima consectetur. Repellat voluptas assumenda veniam
-            iure dolorem consectetur sed. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Esse corrupti delectus, neque autem
-            pariatur reiciendis deleniti laboriosam vel rem aperiam ipsa, rerum
-            aliquid a. Optio, eligendi ut. Tempora, eaque exercitationem! Hic
-            labore officiis nulla praesentium aliquid repellendus aut, eaque
-            voluptatibus fugit, maiores autem, expedita inventore ad et amet
-            laboriosam reprehenderit minima consectetur. Repellat voluptas
-            assumenda veniam iure dolorem consectetur sed.
+            S&S Engineering Solutions is a full service engineering and design
+            firm with a dedicated team of experienced personnel more than 18+
+            years of experience providing a full range of cost effective
+            Engineering/Design, Procurement and Construction (EPC) services for
+            Biomass Steam Boiler,Power-plants, Ethanol Plants, Steel Plants,
+            Petrochemical Industry and Oil & Gas field. We can assist you
+            through the entire design process, from planning to engineering,
+            construction, execution and commissioning.
           </p>
         </div>
         <div className={styles.aboutImg}>
@@ -76,30 +85,14 @@ const AboutPage = () => {
         viewport={{ once: true }}
       >
         <div className={styles.aboutText}>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse
-            corrupti delectus, neque autem pariatur reiciendis deleniti
-            laboriosam vel rem aperiam ipsa, rerum aliquid a. Optio, eligendi
-            ut. Tempora, eaque exercitationem! Hic labore officiis nulla
-            praesentium aliquid repellendus aut, eaque voluptatibus fugit,
-            maiores autem, expedita inventore ad et amet laboriosam
-            reprehenderit minima consectetur. Repellat voluptas assumenda veniam
-            iure dolorem consectetur sed. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Esse corrupti delectus, neque autem
-            pariatur reiciendis deleniti laboriosam vel rem aperiam ipsa, rerum
-            aliquid a. Optio, eligendi ut. Tempora, eaque exercitationem! Hic
-            labore officiis nulla praesentium aliquid repellendus aut, eaque
-            voluptatibus fugit, maiores autem, expedita inventore ad et amet
-            laboriosam reprehenderit minima consectetur. Repellat voluptas
-            assumenda veniam iure dolorem consectetur sed.
-          </p>
+          <ul>
+            {services.map((service, i) => (
+              <li key={i}>{service}</li>
+            ))}
+          </ul>
         </div>
         <div className={styles.aboutImg}>
-          <Image
-            src="https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            width={500}
-            height={300}
-          />
+          <Image src="/WA0022.jpg" width={700} height={500} />
         </div>
       </motion.div>
     </motion.div>
