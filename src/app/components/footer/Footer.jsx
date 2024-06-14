@@ -5,6 +5,7 @@ import styles from "./footer.module.css";
 import Image from "next/image";
 import FooterNav from "./footerNav/FooterNav";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   const links = [
@@ -21,8 +22,8 @@ const Footer = () => {
       path: "/about/services",
     },
     {
-      title: "Blog",
-      path: "/blog",
+      title: "Gallery",
+      path: "/gallery",
     },
     {
       title: "Contact",
@@ -31,8 +32,20 @@ const Footer = () => {
   ];
 
   return (
-    <div className={styles.footer}>
-      <div className={styles.footerItems}>
+    <motion.div
+      className={styles.footer}
+      initial={{ y: 250, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      transition={{ delay: 0.25, duration: 0.7 }}
+      viewport={{ once: true }}
+    >
+      <motion.div
+        className={styles.footerItems}
+        initial={{ y: 250, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.45, duration: 0.7 }}
+        viewport={{ once: true }}
+      >
         <div className={styles.footerLogo}>
           <Image src="/logopreview.png" width={175} height={175} />
         </div>
@@ -60,7 +73,7 @@ const Footer = () => {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </div>
+      </motion.div>
       <div
         style={{
           color: "white",
@@ -71,9 +84,16 @@ const Footer = () => {
         }}
       >
         Developed by
-        <Link href="https://aggarwaladi.com"> Aditya Aggarwal</Link>
+        <Link
+          href="https://aggarwaladi.com"
+          target="_blank"
+          className={styles.devLink}
+        >
+          {" "}
+          Aditya Aggarwal
+        </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -81,7 +81,7 @@ const ServicesSection = () => {
           transition={{ delay: 0.95, duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <div className="">
+          <div>
             <TbBuildingFactory size={100} color="orange" />
           </div>
           <div className={styles.serviceText}>

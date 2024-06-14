@@ -59,8 +59,18 @@
     padding: 50px;
 }
 
+.aboutcontainer:nth-child(even){
+    flex-direction: row-reverse;
+}
+
 @media (max-width: 780px){
-    .aboutcontainer{
+    .aboutcontainer, .aboutcontainer:nth-child(even) {
         flex-direction: column;
+    }
+    .aboutText{
+        padding: 30px;
+    }
+    .aboutImg{
+        margin: 20px;
     }
 }

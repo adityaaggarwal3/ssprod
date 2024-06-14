@@ -3,7 +3,7 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    margin-top: 20px;
     background-color: black;
 }
 
@@ -40,9 +40,12 @@
     font-size: 30px;
 }
 
+.devLink{
+    color: white;
+    text-decoration: none;
+}
 
-@media (max-width: 780px),
-@media (max-width: 640px){
+@media (max-width: 780px){
     .footerItems{
         flex-wrap: wrap;
     }
