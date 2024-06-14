@@ -1,13 +1,18 @@
 .navBar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-top: 10px;
     position: absolute;
     margin: auto;
     width: 90%;
     padding: 10px 30px;
     z-index: 999;
+}
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
 }
 
 @media (max-width: 640px){

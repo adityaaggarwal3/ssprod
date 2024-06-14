@@ -83,13 +83,12 @@ const Footer = () => {
           fontSize: "18px",
         }}
       >
-        Developed by
+        Developed by &nbsp;
         <Link
           href="https://aggarwaladi.com"
           target="_blank"
           className={styles.devLink}
         >
-          {" "}
           Aditya Aggarwal
         </Link>
       </div>
