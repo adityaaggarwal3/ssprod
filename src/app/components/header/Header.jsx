@@ -22,6 +22,11 @@ const Header = () => {
       >
         <SwiperSlide>
           <div className={styles.imgContainer}>
+            <img src="/header1.jpg" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={styles.imgContainer}>
             <img src="https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
           </div>
         </SwiperSlide>
@@ -38,11 +43,6 @@ const Header = () => {
         <SwiperSlide>
           <div className={styles.imgContainer}>
             <img src="https://images.pexels.com/photos/224924/pexels-photo-224924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={styles.imgContainer}>
-            <img src="https://images.pexels.com/photos/33192/paddle-wheel-bucket-wheel-excavators-brown-coal-open-pit-mining.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
           </div>
         </SwiperSlide>
       </Swiper>

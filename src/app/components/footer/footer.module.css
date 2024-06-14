@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    background-color: black;
+    background-color: rgb(110, 110, 110);
 }
 
 .footerItems{

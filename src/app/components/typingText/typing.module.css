@@ -27,14 +27,15 @@
 
 .span1{
     font-size: 60px;
+    color: #0c4df0 !important;
 }
 
 
 .headerText p{
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.6);
+    text-shadow: 4px 7px 10px rgba(248, 244, 244, 0.6);
     font-size: 35px;
-    color: white !important;
-    font-weight: bold;
+    color: #0c4df0 !important;
+    font-weight: 800;
 }
 
 

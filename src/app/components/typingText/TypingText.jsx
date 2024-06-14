@@ -43,7 +43,7 @@ const TypingText = () => {
             ]}
             loop={10}
             cursor
-            cursorStyle="_"
+            cursorStyle=""
             typeSpeed={80}
             deleteSpeed={50}
             delaySpeed={1000}

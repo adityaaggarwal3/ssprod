@@ -47,7 +47,7 @@ const Footer = () => {
         viewport={{ once: true }}
       >
         <div className={styles.footerLogo}>
-          <Image src="/logopreview.png" width={175} height={175} />
+          <Image src="/logopreview.png" width={200} height={200} />
         </div>
         <div className={styles.footerNav}>
           {links.map((link, i) => (
