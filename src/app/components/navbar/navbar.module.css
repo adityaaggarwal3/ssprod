@@ -16,6 +16,7 @@
     align-items: center;
 }
 
+
 @media (max-width: 640px){
     .navbar{
         width: 100%;

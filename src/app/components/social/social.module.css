@@ -1,10 +1,11 @@
-.socialNav{
+.socialNavContainer{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* flex-direction: column; */
-    gap: 20px;
+    gap: 10px;
     /* background-color: rgba(247, 21, 21, 0.253); */
     height: 50px;
     /* position: absolute;
@@ -15,6 +16,7 @@
 
 .sociallinks{
     display: flex;
+    justify-content: space-between;
     gap: 10px;
 }
 
@@ -22,16 +24,19 @@
     font-size: 30px;
     padding: 5px;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
 .contactNum{
     display: flex;
     gap: 15px;
+    padding: 10px;
+    border-radius: 15px;
     margin-top: 10px;
     color: orange;
     font-size: 25px;
     font-weight: 800;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
