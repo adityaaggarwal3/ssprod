@@ -4,6 +4,7 @@ import styles from "./links.module.css";
 import NavLinks from "../navlinks/NavLinks";
 import { useState } from "react";
 import { Twirl as Hamburger } from "hamburger-react";
+import Social from "../../social/Social";
 
 const links = [
   {
@@ -66,6 +67,9 @@ const Links = () => {
           {links.map((link, i) => (
             <NavLinks item={link} key={i} open={open} />
           ))}
+          <div>
+            <Social />
+          </div>
         </div>
       )}
     </div>

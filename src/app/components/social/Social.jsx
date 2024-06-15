@@ -11,7 +11,7 @@ import styles from "./social.module.css";
 
 const Social = () => {
   return (
-    <div className={styles.socialNav}>
+    <>
       <div className={styles.sociallinks}>
         <FaSquareFacebook color="orange" className={styles.socialLogo} />
         <FaLinkedin color="orange" className={styles.socialLogo} />
@@ -23,7 +23,7 @@ const Social = () => {
         <FaPhone />
         9599173003
       </div>
-    </div>
+    </>
   );
 };
 

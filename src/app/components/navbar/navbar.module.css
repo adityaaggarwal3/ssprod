@@ -8,6 +8,7 @@
     padding: 10px 30px;
     z-index: 999;
 }
+
 .mainNav{
     display: flex;
     justify-content: space-between;
@@ -22,5 +23,11 @@
     .logoImg{
         width: 240px;
     }
-  
+}
+
+
+@media (max-width: 1180px){
+.socialNav{
+    display: none;
+}
 }

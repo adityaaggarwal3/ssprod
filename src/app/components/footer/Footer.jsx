@@ -36,14 +36,14 @@ const Footer = () => {
       className={styles.footer}
       initial={{ y: 250, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      transition={{ delay: 0.25, duration: 0.7 }}
+      transition={{ delay: 0.35, duration: 0.7 }}
       viewport={{ once: true }}
     >
       <motion.div
         className={styles.footerItems}
         initial={{ y: 250, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.3, duration: 0.7 }}
+        transition={{ delay: 0.45, duration: 0.7 }}
         viewport={{ once: true }}
       >
         <div className={styles.footerLogo}>
