@@ -11,7 +11,7 @@ const ClientsSection = () => {
       <motion.h2
         initial={{ y: 250, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.75, duration: 0.5 }}
+        transition={{ delay: 0.25, duration: 0.5 }}
         viewport={{ once: true }}
       >
         Our Clients
@@ -20,7 +20,7 @@ const ClientsSection = () => {
         className={styles.sliderContainer}
         initial={{ y: 250, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ delay: 1, duration: 0.5 }}
+        transition={{ delay: 0.3, duration: 0.5 }}
         viewport={{ once: true }}
       >
         <Swiper
