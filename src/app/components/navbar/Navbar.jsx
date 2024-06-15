@@ -27,12 +27,12 @@ const NavBar = () => {
         <div className={styles.menuItems}>
           <Links />
         </div>
+        {path != "/admin" && (
+          <div className={styles.socialNav}>
+            <Social />
+          </div>
+        )}
       </div>
-      {path != "/admin" && (
-        <div className={styles.socialNav}>
-          <Social />
-        </div>
-      )}
     </div>
   );
 };

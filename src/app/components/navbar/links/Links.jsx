@@ -29,8 +29,8 @@ const links = [
 ];
 
 const Links = () => {
-  const session = true;
-  const isAdmin = true;
+  const session = false;
+  const isAdmin = false;
 
   const [open, setOpen] = useState(false);
 
@@ -40,14 +40,14 @@ const Links = () => {
         {links.map((link, i) => (
           <NavLinks item={link} key={i} />
         ))}
-        {session ? (
+        {/* {session ? (
           <>
             {isAdmin && <NavLinks item={{ title: "Admin", path: "/admin" }} />}
             <button className={styles.logout}>Logout</button>
           </>
         ) : (
           <NavLinks item={{ title: "Login", path: "/login" }} />
-        )}
+        )} */}
       </div>
       <span className={styles.menuBtn}>
         <Hamburger

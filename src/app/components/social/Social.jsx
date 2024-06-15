@@ -13,11 +13,11 @@ const Social = () => {
   return (
     <div className={styles.socialNav}>
       <div className={styles.sociallinks}>
-        <FaSquareFacebook color="blue" size={30} />
-        <FaLinkedin color="blue" size={30} />
-        <FaSquareInstagram color="blue" size={30} />
-        <FaSquareWhatsapp color="blue" size={30} />
-        <FaXTwitter color="blue" size={30} />
+        <FaSquareFacebook color="orange" className={styles.socialLogo} />
+        <FaLinkedin color="orange" className={styles.socialLogo} />
+        <FaSquareInstagram color="orange" className={styles.socialLogo} />
+        <FaSquareWhatsapp color="orange" className={styles.socialLogo} />
+        <FaXTwitter color="orange" className={styles.socialLogo} />
       </div>
       <div className={styles.contactNum}>
         <FaPhone />
