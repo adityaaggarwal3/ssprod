@@ -30,19 +30,24 @@
 
 .contactNum{
     display: flex;
+    justify-content: center;
     gap: 15px;
     padding: 10px;
     border-radius: 15px;
     margin-top: 10px;
-    color: orange;
     font-size: 25px;
+    /* color: orange; */
     font-weight: 800;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.contactNum span{
+    text-decoration: none;
+    color: orange;
+}
 
 @media(max-width: 640px){
-    .contactNum p{
+    .contactNum span{
         font-size: 20px;
     }
 }

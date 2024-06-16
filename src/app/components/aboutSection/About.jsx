@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./about.module.css";
 import { motion } from "framer-motion";
 import Counter from "../counter/Counter";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -27,28 +28,22 @@ const About = () => {
         >
           <h1>About Us</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-            doloribus ad similique quo aspernatur quas repellat est dicta
-            laborum, impedit, necessitatibus aliquid consequuntur deserunt,
-            atque pariatur! Unde dolorem accusamus incidunt? Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Impedit dicta eaque eum ipsum
-            accusantium! Reprehenderit harum iusto quaerat id nam eius quidem
-            similique reiciendis esse rem adipisci, possimus consequuntur rerum.
-            Quasi autem saepe voluptate facere maxime vitae asperiores, animi
-            similique ipsam impedit voluptas ipsum iste nihil esse beatae
-            inventore atque quidem delectus dolor ea ratione quos odio.
-            Suscipit, accusantium perferendis. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Doloribus obcaecati cupiditate
-            sapiente delectus distinctio sit voluptatibus molestiae facere
-            soluta impedit perferendis dolores quod tempora error, rem ipsum
-            quae facilis magni! Earum vitae beatae rem ad, nobis adipisci quas,
-            iure voluptates commodi est nemo itaque mollitia asperiores amet
-            ipsam molestias repellat quos, doloribus id expedita! Molestias
-            laboriosam fugit aliquid placeat nihil?
+            S&S Engineering Solutions is a full service engineering and design
+            firm with a dedicated team of experienced personnel more than 18+
+            years of experience providing a full range of cost effective
+            Engineering/Design, Procurement and Construction (EPC) services for
+            Biomass Steam Boiler,Power-plants, Ethanol Plants, Steel Plants,
+            Petrochemical Industry and Oil & Gas field. We can assist you
+            through the entire design process, from planning to engineering,
+            construction, execution and commissioning.
           </p>
           <div className={styles.cta}>
-            <button>Learn More...</button>
-            <button>Contact Us</button>
+            <Link href="/about">
+              <button>Learn More...</button>
+            </Link>
+            <Link href="/contact">
+              <button>Contact Us</button>
+            </Link>
           </div>
         </motion.div>
       </motion.div>

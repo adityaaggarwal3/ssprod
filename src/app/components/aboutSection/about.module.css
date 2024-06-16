@@ -44,7 +44,7 @@
 }
 
 .textContainer p{
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -65,8 +65,7 @@
     border: none;
     cursor: pointer;
 }
-@media (max-width: 780px),
-@media (max-width: 640px){
+@media (max-width: 780px){
     .abtContainer{
         flex-direction: column-reverse;
         gap: 20px;

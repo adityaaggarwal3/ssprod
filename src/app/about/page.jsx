@@ -23,6 +23,21 @@ const AboutPage = () => {
     "Boiler & Turbine Automation",
   ];
 
+  const industries = [
+    "Rice mills",
+    "Paper",
+    "Sugar",
+    "Textiles",
+    "Food processing",
+    "Plywood",
+    "Pharma",
+    "Distilleries",
+    "Brewery",
+    "Chemicals",
+    "Power",
+    "Steel",
+  ];
+
   return (
     <motion.div
       className={styles.aboutPage}

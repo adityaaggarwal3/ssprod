@@ -6,6 +6,7 @@ import Image from "next/image";
 import FooterNav from "./footerNav/FooterNav";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Social from "../social/Social";
 
 const Footer = () => {
   const links = [
@@ -43,7 +44,7 @@ const Footer = () => {
         className={styles.footerItems}
         initial={{ y: 250, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.45, duration: 0.7 }}
+        transition={{ delay: 0.35, duration: 0.7 }}
         viewport={{ once: true }}
       >
         <div className={styles.footerLogo}>
@@ -74,6 +75,9 @@ const Footer = () => {
           ></iframe>
         </div>
       </motion.div>
+      <div className={styles.footerSocial}>
+        <Social />
+      </div>
       <div
         style={{
           color: "white",
