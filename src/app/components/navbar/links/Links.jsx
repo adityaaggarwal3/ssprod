@@ -67,7 +67,7 @@ const Links = () => {
           {links.map((link, i) => (
             <NavLinks item={link} key={i} open={open} />
           ))}
-          <div>
+          <div className={styles.mobileSocialNav}>
             <Social />
           </div>
         </div>

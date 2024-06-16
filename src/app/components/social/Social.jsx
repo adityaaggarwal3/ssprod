@@ -21,7 +21,7 @@ const Social = () => {
       </div>
       <div className={styles.contactNum}>
         <FaPhone />
-        9599173003
+        <p>9599173003</p>
       </div>
     </>
   );
