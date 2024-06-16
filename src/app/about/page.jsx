@@ -100,8 +100,33 @@ const AboutPage = () => {
         viewport={{ once: true }}
       >
         <div className={styles.aboutText}>
+          <h2>We provide services Related to:</h2>
           <ul>
             {services.map((service, i) => (
+              <li key={i}>{service}</li>
+            ))}
+          </ul>
+        </div>
+        <div className={styles.aboutImg}>
+          <Image
+            className={styles.aboutLgImg}
+            src="/WA0022.jpg"
+            width={700}
+            height={500}
+          />
+        </div>
+      </motion.div>
+      <motion.div
+        className={styles.aboutcontainer}
+        initial={{ y: 250, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.5, duration: 0.7 }}
+        viewport={{ once: true }}
+      >
+        <div className={styles.aboutText}>
+          <h2>Industries We Service:</h2>
+          <ul>
+            {industries.map((service, i) => (
               <li key={i}>{service}</li>
             ))}
           </ul>

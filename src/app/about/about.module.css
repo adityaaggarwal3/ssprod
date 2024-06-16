@@ -47,12 +47,24 @@
 .aboutText{
     flex: 3;
     display: flex;
+    flex-direction: column;
+    gap: 15px;
     justify-content: center;
+    align-items: flex-start;
     padding: 50px;
     font-size: 22px;
     letter-spacing: 2.5px;
     line-height: 25px;
 }
+
+.aboutText h2{
+    line-height: 2rem;
+}
+
+.aboutText ul{
+    margin-left: 20px;
+}
+
 
 .aboutImg{
     flex: 1;
