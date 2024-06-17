@@ -86,6 +86,9 @@
     .aboutLgImg{
         width: 600px;
     }
+    .aboutheader h2{
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px){

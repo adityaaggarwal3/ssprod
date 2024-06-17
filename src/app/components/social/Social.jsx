@@ -14,13 +14,21 @@ const Social = () => {
   return (
     <>
       <div className={styles.sociallinks}>
-        <FaSquareFacebook color="orange" className={styles.socialLogo} />
-        <FaLinkedin color="orange" className={styles.socialLogo} />
-        <FaSquareInstagram color="orange" className={styles.socialLogo} />
+        <Link href="/">
+          <FaSquareFacebook color="orange" className={styles.socialLogo} />
+        </Link>
+        <Link href="/">
+          <FaLinkedin color="orange" className={styles.socialLogo} />
+        </Link>
+        <Link href="/">
+          <FaSquareInstagram color="orange" className={styles.socialLogo} />
+        </Link>
         <Link href=" https://wa.me/9599173003?text=urlencodedtext">
           <FaSquareWhatsapp color="orange" className={styles.socialLogo} />
         </Link>
-        <FaXTwitter color="orange" className={styles.socialLogo} />
+        <Link href="/">
+          <FaXTwitter color="orange" className={styles.socialLogo} />
+        </Link>
       </div>
       <div className={styles.contactNum}>
         <FaPhone color="orange" />

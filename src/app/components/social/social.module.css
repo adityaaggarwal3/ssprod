@@ -20,6 +20,7 @@
     gap: 10px;
 }
 
+
 .socialLogo{
     font-size: 30px;
     padding: 5px;
@@ -35,13 +36,13 @@
     padding: 10px;
     border-radius: 15px;
     margin-top: 10px;
-    font-size: 25px;
     /* color: orange; */
     font-weight: 800;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .contactNum span{
+    font-size: 25px;
     text-decoration: none;
     color: orange;
 }
@@ -49,5 +50,16 @@
 @media(max-width: 640px){
     .contactNum span{
         font-size: 20px;
+    }
+    .sociallinks{
+        width: 100%;
+        justify-content: center;
+    }
+    .contactNum{
+        width: fit-content;
+        /* justify-content: center; */
+    }
+    .contactNum span{
+        font-size: 18px;
     }
 }
