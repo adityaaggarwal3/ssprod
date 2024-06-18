@@ -134,7 +134,7 @@ const AboutPage = () => {
         <div className={styles.aboutImg}>
           <Image
             className={styles.aboutLgImg}
-            src="/WA0022.jpg"
+            src="/powerplant.jpg"
             width={700}
             height={500}
           />
