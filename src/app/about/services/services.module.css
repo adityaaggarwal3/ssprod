@@ -1,10 +1,80 @@
-.servicePage{
-    width: 100vw;
-    min-height: 100vh;
+.servicessection{
     display: flex;
     position: relative;
-    top: 100px;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.pageHeading{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1545186070-de624ed19875?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+}
+
+.servicessection h2{
+    font-size: 60px;
+    text-decoration: underline;
+    color: #fa7c07;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.serviceContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.serviceCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    width: 25%;
+    margin: 20px;
+    border: 2px solid #fa7c07;
+}
+
+.serviceText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.serviceText h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.serviceText p{
+    font-size: 20px;
+}
+
+@media (max-width: 780px){
+    .pageHeading{
+        height: 90vh;
+    }
+    
+    .serviceCard{
+        width: 90%;
+    }
+    .serviceText h3{
+        font-size: 26px;
+    }
+    .serviceText p{
+        font-size: 18px;
+    }
 }
