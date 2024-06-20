@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { TbBuildingFactory } from "react-icons/tb";
 import styles from "./test.module.css";
+import Image from "next/image";
 
 const Test = () => {
   const data = [
@@ -74,37 +74,194 @@ const Test = () => {
   ];
 
   return (
-    <div className={styles.servicessection}>
+    <div className={styles.projects}>
       <div className={styles.pageHeading}>
-        <motion.h2
-          initial={{ y: 250, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.75, duration: 0.5 }}
-          viewport={{ once: true }}
-        >
-          Our Services
-        </motion.h2>
+        <h2>Projects</h2>
       </div>
-
-      <div className={styles.serviceContainer}>
-        {data.map((service, i) => (
-          <motion.div
-            key={i}
-            className={styles.serviceCard}
-            initial={{ y: 250, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.95, duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            <div className="">
-              <TbBuildingFactory size={100} color="orange" />
+      <div className={styles.projectsContainer}>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
             </div>
-            <div className={styles.serviceText}>
-              <h3>{service.title}</h3>
-              <p>{service.desc}</p>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
             </div>
-          </motion.div>
-        ))}
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <div className={styles.projectImg}>
+            <Image src={"/powerplant.jpg"} height={300} width={300} />
+          </div>
+          <div className={styles.projectText}>
+            <h3>Project Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Incidunt, quam similique? Necessitatibus nulla ratione placeat
+              eum, dolorum et omnis molestiae minima adipisci perferendis
+              praesentium reiciendis aut cum laudantium perspiciatis! Omnis.
+            </p>
+            <div className={styles.projectBtn}>
+              <button>View Gallery</button>
+              <button>Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div className={styles.project}>
+          <Image src={"/powerplant1.jpg"} height={300} width={300} />
+        </div>
       </div>
     </div>
   );
